@@ -75,6 +75,7 @@ public class UserController {
      * @param request
      * @param session
      * @return 0:用户名不存在 1:密码错误 2:登录成功
+     * @session :利用session存储用户登录信息在服务器上，在多个浏览器一直保存
      */
 
     @RequestMapping("/api/loginCheck")
